@@ -19,7 +19,7 @@ int SIZE=0;
 #define PASSWORD 4
 #define NUMBER 5
 #define BALANCE 6
-#define BANK_TAX 5000
+#define BANK_TAX 10000
 
 // struct customer {
 // 	string name;
