@@ -1,9 +1,5 @@
-// Max Base
-// https://github.com/BaseMax/BankSystemCLI
 #include <iostream>
 #include <string>
-#include <algorithm>
-#include <functional>
 
 using namespace std;
 
@@ -12,24 +8,14 @@ int customerIndex=-1;
 const int MAX=1000;
 int SIZE=0;
 
-#define NAME 0
-#define FAMILY 1
-#define NAMES 2
-#define USERNAME 3
-#define PASSWORD 4
-#define NUMBER 5
-#define BALANCE 6
-#define BANK_TAX 10000
-
-// struct customer {
-// 	string name;
-// 	string family;
-// 	string names;
-// 	string username;
-// 	string password;
-// 	int number=-1;
-// 	int balance=0;
-// };
+int NAME=0;
+int FAMILY=1;
+int NAMES=2;
+int USERNAME=3;
+int PASSWORD=4;
+int NUMBER=5;
+int BALANCE=6;
+int BANK_TAX=10000;
 
 string customers[MAX][7];
 
